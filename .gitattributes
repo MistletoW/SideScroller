@@ -1,0 +1,13 @@
+# Normalize line endings
+* text=auto
+
+# Binary files (prevent Git from normalizing)
+*.png binary
+*.jpg binary
+*.zip binary
+*.unity binary
+*.dll binary
+
+# Exclude Unity auto-generated files from normalization
+[Ll]ibrary/** binary
+[Tt]emp/** binary
